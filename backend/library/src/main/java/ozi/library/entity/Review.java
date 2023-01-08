@@ -15,7 +15,7 @@ public class Review {
     @Column(name = "id")
     private long id;
 
-    @Column(name = "user_name")
+    @Column(name = "user_email")
     private String userEmail;
 
     @Column(name = "date")
@@ -29,5 +29,5 @@ public class Review {
     private Long bookId;
 
     @Column(name = "review_description")
-    private String revieDescription;
+    private String reviewDescription;
 }
